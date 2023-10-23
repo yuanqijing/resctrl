@@ -42,7 +42,7 @@ limitations under the License.
 //			return fmt.Errorf("failed to add PIDs to RDT class: %v", err)
 //		}
 //	}
-package rdt
+package rdt_desprate
 
 import (
 	"errors"
