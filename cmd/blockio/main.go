@@ -24,8 +24,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/intel/goresctrl/pkg/blockio"
-	goresctrlpath "github.com/intel/goresctrl/pkg/path"
+	"github.com/yuanqijing/resctrl/pkg/blockio"
+	goresctrlpath "github.com/yuanqijing/resctrl/pkg/path"
 )
 
 var examples string = `Examples:

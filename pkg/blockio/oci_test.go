@@ -18,9 +18,8 @@ import (
 	"testing"
 
 	oci "github.com/opencontainers/runtime-spec/specs-go"
-
-	"github.com/intel/goresctrl/pkg/cgroups"
-	"github.com/intel/goresctrl/pkg/testutils"
+	"github.com/yuanqijing/resctrl/pkg/cgroups"
+	"github.com/yuanqijing/resctrl/pkg/testutils"
 )
 
 // TestOciLinuxBlockIO: unit tests for OciLinuxBlockIO().

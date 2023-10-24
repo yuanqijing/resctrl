@@ -5,6 +5,7 @@ package cgroups
 
 import (
 	"encoding/binary"
+
 	"golang.org/x/sys/unix"
 )
 

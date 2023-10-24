@@ -25,8 +25,8 @@ import (
 	"strconv"
 	"strings"
 
-	grclog "github.com/intel/goresctrl/pkg/log"
-	"github.com/intel/goresctrl/pkg/utils"
+	grclog "github.com/yuanqijing/resctrl/pkg/log"
+	"github.com/yuanqijing/resctrl/pkg/utils"
 )
 
 // Config is the user-specified RDT configuration.

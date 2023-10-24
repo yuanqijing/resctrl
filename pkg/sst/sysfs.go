@@ -22,8 +22,8 @@ import (
 	"strconv"
 	"strings"
 
-	goresctrlpath "github.com/intel/goresctrl/pkg/path"
-	"github.com/intel/goresctrl/pkg/utils"
+	goresctrlpath "github.com/yuanqijing/resctrl/pkg/path"
+	"github.com/yuanqijing/resctrl/pkg/utils"
 )
 
 type cpuPackageInfo struct {

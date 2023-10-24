@@ -25,7 +25,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/intel/goresctrl/pkg/rdt"
+	"github.com/yuanqijing/resctrl/pkg/rdt_desprate"
 )
 
 var (
@@ -76,14 +76,14 @@ func subCmdInfo(args []string) error {
 	}
 
 	// Run sub-command
-	if err := rdt.Initialize(groupPrefix); err != nil {
+	if err := rdt_desprate.Initialize(groupPrefix); err != nil {
 		fmt.Printf("RDT is not enabled: %v\n", err)
 		return nil
 	}
 
-	fmt.Printf("Monitoring supported: %v\n", rdt.MonSupported())
-	if rdt.MonSupported() {
-		mon := rdt.GetMonFeatures()
+	fmt.Printf("Monitoring supported: %v\n", rdt_desprate.MonSupported())
+	if rdt_desprate.MonSupported() {
+		mon := rdt_desprate.GetMonFeatures()
 
 		fmt.Println("Monitoring features:")
 		for r, f := range mon {
@@ -91,7 +91,7 @@ func subCmdInfo(args []string) error {
 		}
 	}
 	fmt.Println("Classes:")
-	for _, cls := range rdt.GetClasses() {
+	for _, cls := range rdt_desprate.GetClasses() {
 		fmt.Printf("  - %s\n", cls.Name())
 
 		mon := cls.GetMonGroups()
@@ -123,12 +123,12 @@ func subCmdConfigure(args []string) error {
 	}
 
 	// Run sub-command
-	if err := rdt.Initialize(groupPrefix); err != nil {
+	if err := rdt_desprate.Initialize(groupPrefix); err != nil {
 		return fmt.Errorf("RDT is not enabled: %v", err)
 	}
 
 	fmt.Println("Configuring resctrl filesystem...")
-	if err := rdt.SetConfigFromFile(*configFile, *force); err != nil {
+	if err := rdt_desprate.SetConfigFromFile(*configFile, *force); err != nil {
 		return err
 	}
 

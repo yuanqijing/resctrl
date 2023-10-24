@@ -17,7 +17,7 @@ limitations under the License.
 package blockio
 
 import (
-	"github.com/intel/goresctrl/pkg/kubernetes"
+	"github.com/yuanqijing/resctrl/pkg/kubernetes"
 )
 
 const (

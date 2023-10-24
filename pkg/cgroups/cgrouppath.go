@@ -15,7 +15,7 @@
 package cgroups
 
 import (
-	goresctrlpath "github.com/intel/goresctrl/pkg/path"
+	goresctrlpath "github.com/yuanqijing/resctrl/pkg/path"
 )
 
 // nolint

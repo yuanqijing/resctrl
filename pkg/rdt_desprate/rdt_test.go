@@ -26,14 +26,12 @@ import (
 	"strings"
 	"testing"
 
-	"sigs.k8s.io/yaml"
-
 	"github.com/google/go-cmp/cmp"
-
-	grclog "github.com/intel/goresctrl/pkg/log"
-	"github.com/intel/goresctrl/pkg/testutils"
-	"github.com/intel/goresctrl/pkg/utils"
-	testdata "github.com/intel/goresctrl/test/data"
+	grclog "github.com/yuanqijing/resctrl/pkg/log"
+	"github.com/yuanqijing/resctrl/pkg/testutils"
+	"github.com/yuanqijing/resctrl/pkg/utils"
+	testdata "github.com/yuanqijing/resctrl/test/data"
+	"sigs.k8s.io/yaml"
 )
 
 const mockGroupPrefix string = "goresctrl."

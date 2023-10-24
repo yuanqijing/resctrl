@@ -22,7 +22,7 @@ import (
 	"strconv"
 	"strings"
 
-	goresctrlpath "github.com/intel/goresctrl/pkg/path"
+	goresctrlpath "github.com/yuanqijing/resctrl/pkg/path"
 )
 
 const (

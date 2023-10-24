@@ -21,9 +21,9 @@ import (
 	stdlog "log"
 	"os"
 
-	grclog "github.com/intel/goresctrl/pkg/log"
-	goresctrlpath "github.com/intel/goresctrl/pkg/path"
-	"github.com/intel/goresctrl/pkg/utils"
+	grclog "github.com/yuanqijing/resctrl/pkg/log"
+	goresctrlpath "github.com/yuanqijing/resctrl/pkg/path"
+	"github.com/yuanqijing/resctrl/pkg/utils"
 )
 
 // SstPackageInfo contains status of Intel Speed Select Technologies (SST)

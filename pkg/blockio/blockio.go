@@ -110,14 +110,12 @@ import (
 	"strings"
 	"syscall"
 
+	"github.com/yuanqijing/resctrl/pkg/cgroups"
+	grclog "github.com/yuanqijing/resctrl/pkg/log"
+	goresctrlpath "github.com/yuanqijing/resctrl/pkg/path"
 	"golang.org/x/sys/unix"
-
 	"k8s.io/apimachinery/pkg/api/resource"
 	"sigs.k8s.io/yaml"
-
-	"github.com/intel/goresctrl/pkg/cgroups"
-	grclog "github.com/intel/goresctrl/pkg/log"
-	goresctrlpath "github.com/intel/goresctrl/pkg/path"
 )
 
 const (

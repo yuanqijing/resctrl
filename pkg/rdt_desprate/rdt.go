@@ -55,10 +55,9 @@ import (
 	"strings"
 	"syscall"
 
+	grclog "github.com/yuanqijing/resctrl/pkg/log"
+	"github.com/yuanqijing/resctrl/pkg/utils"
 	"sigs.k8s.io/yaml"
-
-	grclog "github.com/intel/goresctrl/pkg/log"
-	"github.com/intel/goresctrl/pkg/utils"
 )
 
 const (

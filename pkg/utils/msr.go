@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"os"
 
-	goresctrlpath "github.com/intel/goresctrl/pkg/path"
+	goresctrlpath "github.com/yuanqijing/resctrl/pkg/path"
 )
 
 func ReadMSR(cpu ID, msr int64) (uint64, error) {

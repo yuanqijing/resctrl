@@ -21,8 +21,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/intel/goresctrl/pkg/cgroups"
-	"github.com/intel/goresctrl/pkg/testutils"
+	"github.com/yuanqijing/resctrl/pkg/cgroups"
+	"github.com/yuanqijing/resctrl/pkg/testutils"
 )
 
 var knownIOSchedulers map[string]bool = map[string]bool{

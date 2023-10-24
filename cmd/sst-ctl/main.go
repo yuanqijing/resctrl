@@ -24,9 +24,9 @@ import (
 	"strconv"
 	"strings"
 
-	goresctrlpath "github.com/intel/goresctrl/pkg/path"
-	"github.com/intel/goresctrl/pkg/sst"
-	"github.com/intel/goresctrl/pkg/utils"
+	goresctrlpath "github.com/yuanqijing/resctrl/pkg/path"
+	"github.com/yuanqijing/resctrl/pkg/sst"
+	"github.com/yuanqijing/resctrl/pkg/utils"
 )
 
 var (

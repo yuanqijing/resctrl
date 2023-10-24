@@ -24,7 +24,7 @@ import (
 	"syscall"
 	"unsafe"
 
-	"github.com/intel/goresctrl/pkg/utils"
+	"github.com/yuanqijing/resctrl/pkg/utils"
 )
 
 // cpuMap holds the logical to punit cpu mapping table

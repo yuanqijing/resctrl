@@ -20,7 +20,7 @@ import (
 	"syscall"
 	"testing"
 
-	"github.com/intel/goresctrl/pkg/testutils"
+	"github.com/yuanqijing/resctrl/pkg/testutils"
 )
 
 var mountDir = "/sys/fs/cgroup"

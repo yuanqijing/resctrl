@@ -20,8 +20,7 @@ import (
 	"fmt"
 
 	oci "github.com/opencontainers/runtime-spec/specs-go"
-
-	"github.com/intel/goresctrl/pkg/cgroups"
+	"github.com/yuanqijing/resctrl/pkg/cgroups"
 )
 
 // OciLinuxBlockIO returns OCI LinuxBlockIO structure corresponding to the class.

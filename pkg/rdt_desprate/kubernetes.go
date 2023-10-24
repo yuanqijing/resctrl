@@ -18,7 +18,8 @@ package rdt_desprate
 
 import (
 	"fmt"
-	"github.com/intel/goresctrl/pkg/kubernetes"
+
+	"github.com/yuanqijing/resctrl/pkg/kubernetes"
 )
 
 const (

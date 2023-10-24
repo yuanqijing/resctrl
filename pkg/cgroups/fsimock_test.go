@@ -6,7 +6,7 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/intel/goresctrl/pkg/testutils"
+	"github.com/yuanqijing/resctrl/pkg/testutils"
 )
 
 var fsMockUtFiles map[string]mockFile = map[string]mockFile{
